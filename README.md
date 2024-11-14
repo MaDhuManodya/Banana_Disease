@@ -28,6 +28,8 @@ This project uses a YOLOv8 model to detect bananas and classify them based on di
  - python banana_inspector.py
 
 ## Dataset
+
 The dataset used for training the model can be accessed from the following link:
 
-Banana Disease Dataset:https://drive.google.com/file/d/1h9BI7aEtqKCjBlPZQIYXk1VEExU01RQC/view?usp=sharing
+[Banana Disease Dataset](https://drive.google.com/file/d/1h9BI7aEtqKCjBlPZQIYXk1VEExU01RQC/view?usp=sharing)
+
