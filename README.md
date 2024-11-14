@@ -9,7 +9,6 @@ This project uses a YOLOv8 model to detect bananas and classify them based on di
 ## Setup
 ### Requirements
 - Python 3.8+
-- See `requirements.txt` for dependencies
 
 ### Installation
 1. Clone the repository:
