@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import cv2
 
 # Load your YOLOv8 model
-model = YOLO('puwaluModel/puwalu.pt')  # Path to your primary model
+model = YOLO('Puwalu_disease\puwaluModel\puwalu.pt')  # Path to your primary model
 
 # Path to the image for both stages
-image_path = 'IMG_2473.jpg'
+image_path = 'Puwalu_disease\IMG_2473.jpg'
 
 # Run inference on the image for initial detection
 results = model.predict(image_path)
@@ -31,7 +31,7 @@ if puwalu_detected:
     print("Running additional detection on the same image...")
 
     # Load secondary model for further analysis
-    secondary_model = YOLO('diseaseModel\disease.pt')  # Path to your secondary model
+    secondary_model = YOLO('Puwalu_disease\diseaseModel\disease.pt')  # Path to your secondary model
 
     # Run inference on the same image again
     secondary_results = secondary_model.predict(image_path)
